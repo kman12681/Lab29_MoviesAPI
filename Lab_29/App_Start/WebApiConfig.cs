@@ -14,7 +14,7 @@ namespace Lab_29
             // Web API routes
             config.MapHttpAttributeRoutes();
 
-            config.Formatters.Remove(config.Formatters.XmlFormatter);
+            //config.Formatters.Remove(config.Formatters.XmlFormatter);
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
